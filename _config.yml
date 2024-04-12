@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Borui Kang"
 title_separator          : "-"
 name                     : "Your Name"
-description              : "CS PhD student at the Sichuan University"
+description              : "CS matser student at the Sichuan University"
 url                      : "https://boringkey.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -29,8 +29,7 @@ author:
   # employer         : ""
   uri              : # URL
   email            : "kangborui@stu.scu.edu.cn" 
-  bilibili          : "https://space.bilibili.com/399477632?spm_id_from=333.1007.0.0"
-
+  
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
   # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
