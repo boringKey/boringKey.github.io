@@ -19,7 +19,7 @@ I am currently delving into research beyond my master's studies. Up to now, my r
 
 ## AIGC
 Completing subject-specific generation tasks using AIGC technology.
-![aigc](/assets/img/WechatIMG1723.jpg "AIGC")
+![aigc](/images/WechatIMG1723.jpg "AIGC")
 The image is sourced from [Textual Inversion]([https://markdown.com.cn](https://arxiv.org/abs/2208.01618)).
 
 <!--
