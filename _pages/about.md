@@ -17,11 +17,12 @@ Now, I'm looking for a Ph.D postion for further research.
 
 I am currently delving into research beyond my master's studies. Up to now, my research involvement has primarily centered around AIGC and Multi-Modal learning.
 
-<!--
 ## AIGC
+Completing subject-specific generation tasks using AIGC technology.
+![aigc](/assets/img/WechatIMG1723.jpg "AIGC")
+The image is sourced from [Textual Inversion]([https://markdown.com.cn](https://arxiv.org/abs/2208.01618)).
 
-这里是关于信息A的更详细的内容。
-
+<!--
 ## Multi-Modal learning
 
 这里是关于信息B的更详细的内容。
