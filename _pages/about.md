@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second year postgraduate student from [School of Computer Science](https://cs.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/). My research interest includes computer vision, AIGC, multi-modal learning.
+I'm a second year postgraduate student from [School of Computer Science](https://cs.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/). My research interest includes computer vision, multi-modal learning and AIGC.
 
-I am very fortunate to be advised by [Prof. Jianwei Zhang](https://vs.scu.edu.cn/info/1062/1369.htm/) and Prof. Yuzhong Zhong from [School of Computer Science](https://cs.scu.edu.cn/), [Sichuan University](https://www.scu.edu.cn/).
+I am very fortunate to be advised by [Prof. Jianwei Zhang](https://vs.scu.edu.cn/info/1062/1369.htm/) and Prof. Yuzhong Zhong from College of Computer Science, College of Electrical Engineering, Sichuan University.
 
-Now, I'm looking for a PhD postion for further research.
+Now, I'm looking for a Ph.D postion for further research.
 
 
 
