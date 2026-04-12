@@ -145,7 +145,7 @@ News
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
       <br>
       <span style="font-size: 0.85em; color: #888;">(* Equal Contribution)</span>
-    
+
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
       <li>Achieves a modality-aware stabilized ZO strategy for improved robustness.</li>
