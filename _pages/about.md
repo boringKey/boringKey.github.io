@@ -100,92 +100,102 @@ News
     line-height: 1.6;
   }
 </style>
-
 # Selected Publications
 
 <style>
-  /* 整体容器 */
   .pub-card {
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    margin-bottom: 40px;
-    align-items: flex-start;
+    /* 核心改进：垂直居中对齐，解决不对称感 */
+    align-items: center; 
+    gap: 40px;
+    margin-bottom: 50px;
+    width: 100%;
   }
 
-  /* 左侧图片区域 */
+  /* 左侧图片区域：占据 40% 宽度 */
   .pub-img-container {
-    flex: 1;
-    min-width: 300px;
-    position: relative; /* 为标签定位 */
+    flex: 0 0 40%; 
+    position: relative;
   }
 
   .pub-img-container img {
     width: 100%;
-    border: 1px solid #ddd;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.1); /* 柔和阴影 */
+    height: auto;
+    border: 1px solid #eee;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.08);
     display: block;
+    border-radius: 2px;
   }
 
-  /* 图片左上角的会议标签 */
   .pub-badge {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #003d99; /* 深蓝色 */
+    background-color: #003d99;
     color: white;
-    padding: 4px 12px;
-    font-size: 0.85em;
+    padding: 4px 10px;
+    font-size: 0.8em;
     font-weight: bold;
     z-index: 10;
   }
 
-  /* 右侧内容区域 */
+  /* 右侧内容区域：占据剩余空间 */
   .pub-content {
-    flex: 1.5;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .pub-title {
-    font-size: 1.25em;
-    font-weight: bold;
-    margin: 0 0 8px 0;
-    line-height: 1.2;
+    font-size: 1.3em;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+    line-height: 1.25;
+    color: #1a5dab;
   }
 
   .pub-title a {
-    color: #1a5dab; /* 经典的学术链接蓝 */
+    color: #1a5dab;
     text-decoration: underline;
   }
 
   .pub-authors {
     font-size: 1.05em;
-    color: #333;
-    margin-bottom: 10px;
+    color: #444;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
   }
 
   .pub-links {
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     font-size: 1.1em;
-    font-weight: bold;
   }
 
   .pub-links a {
     color: #1a5dab;
     text-decoration: underline;
-    margin-right: 15px;
+    font-weight: bold;
+    margin-right: 20px;
   }
 
   .pub-bullets {
     padding-left: 20px;
-    color: #444;
+    margin: 0;
+    color: #555;
     font-size: 0.95em;
     line-height: 1.6;
   }
 
-  /* 移动端适配 */
-  @media (max-width: 768px) {
-    .pub-card { flex-direction: column; gap: 15px; }
-    .pub-img-container { min-width: 100%; }
+  /* 针对平板和手机的适配 */
+  @media (max-width: 900px) {
+    .pub-card { 
+      flex-direction: column; 
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .pub-img-container { width: 100%; max-width: 500px; }
   }
 </style>
 
