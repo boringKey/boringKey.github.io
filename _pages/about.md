@@ -122,7 +122,7 @@ News
       <a href="https://github.com/RL-MIND/DMNSP" class="pub-btn">Code</a>
     </div>
     <ul class="pub-bullets">
-      <li>We propose <b>DMNSP</b> to mitigate the catastrophic forgetting caused by the different behaviors of two modalities in VLM-CL.</li>
+      <li>We propose DMNSP to mitigate the catastrophic forgetting caused by the different behaviors of two modalities in VLM-CL.</li>
       <li>Extensive experiments show that our method achieves superior performance on various VLCL benchmarks.</li>
     </ul>
   </div>
