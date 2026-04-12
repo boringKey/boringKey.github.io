@@ -1,10 +1,8 @@
 ---
-​---
 permalink: /
-title: "Borui Kang"  # 这里改掉后，浏览器标签页就不会显示 "About Me"
+title: "Borui Kang"
 excerpt: "About me"
 author_profile: true
-​---
 ---
 
 <style>
@@ -103,14 +101,14 @@ I am currently a 1st-year PhD student at Nanjing University, supervised by Prof.
 I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.cn/rl/), led by Professor [Yang Gao](https://cs.nju.edu.cn/gaoyang).
 
 ## News
+
 * [2025.11] 🎉 Our paper MoZO was accepted by AAAI 2026!
 * [2025.09] 🎓 Started my Ph.D. journey at Nanjing University! 
-* [2025.06] 🎉 Our paper DMNSP  was accepted by ICCV 2025!
+* [2025.06] 🚀 Our paper DMNSP (Dynamic Multi-Layer Null Space Projection) was accepted by ICCV 2025!
 
 <h2 id="publications">Selected Publications</h2>
 
 <!-- 论文 1: DMNSP -->
-
 <div class="pub-card">
   <div class="pub-img-container">
     <div class="pub-badge">ICCV 2025</div>
@@ -132,7 +130,6 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
   </div>
 </div>
 
-
 <!-- 论文 2: MoZO -->
 <div class="pub-card">
   <div class="pub-img-container">
@@ -145,7 +142,8 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
     </h3>
     <p class="pub-authors-links">
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
-     <span style="font-size: 0.9em; color: #888; font-style: italic;">(* Equal Contribution)</span>
+      <br>
+      <span style="font-size: 0.85em; color: #888; font-style: italic;">(* Equal Contribution)</span>
     </p>
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
