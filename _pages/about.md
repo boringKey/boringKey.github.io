@@ -16,15 +16,17 @@ News
 ======
 * [2025.11] 🎉 Our paper MoZO was accepted by AAAI 2026!
 * [2025.09] 🎓 Started my Ph.D. journey at Nanjing University! 
-* [2025.06] 🚀 Our paper DMNSP (Dynamic Multi-Layer Null Space Projection) was accepted by ICCV 2025!
+* [2025.06] 🎉 Our paper DMNSP (Dynamic Multi-Layer Null Space Projection) was accepted by ICCV 2025!
 
 <style>
+  html { scroll-behavior: smooth; } /* 实现平滑滚动 */
+
   .pub-card {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
     width: 100%;
   }
 
@@ -69,27 +71,32 @@ News
     text-decoration: underline;
   }
 
-  .pub-authors {
+  /* 作者和链接区域：消除换行的关键 */
+  .pub-authors-links {
     font-size: 0.85em; 
     color: #555;
-    margin: 0 0 8px 0;
-    line-height: 1.3;
+    margin: 0 0 6px 0;
+    line-height: 1.4;
+  }
+
+  .pub-authors-links strong {
+    color: #333;
   }
 
   .pub-links {
-    margin-bottom: 8px;
-    font-size: 0.9em;
+    display: inline;
+    margin-left: 8px;
   }
 
   .pub-links a {
     color: #1a5dab;
     text-decoration: underline;
-    margin-right: 12px;
+    font-weight: 500;
   }
 
   .pub-bullets {
     padding-left: 15px;
-    margin: 0;
+    margin: 4px 0 0 0;
     color: #666;
     font-size: 0.82em; 
     line-height: 1.4;
@@ -101,7 +108,7 @@ News
   }
 </style>
 
-# Selected Publications
+<h1 id="publications" style="margin-top: 50px;">Selected Publications</h1>
 
 <!-- 论文 1: DMNSP -->
 <div class="pub-card">
@@ -113,40 +120,41 @@ News
     <h3 class="pub-title">
       <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Dynamic Multi-Layer Null Space Projection for Vision-Language Continual Learning</a>
     </h3>
-    <p class="pub-authors">
+    <p class="pub-authors-links">
       <strong>Borui Kang</strong>, Lei Wang, Zhiping Wu, Tao Feng, Yawen Li, Yang Gao, Wenbin Li
+      <span class="pub-links">
+        <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Paper</a> / 
+        <a href="https://github.com/RL-MIND/DMNSP">Code</a>
+      </span>
     </p>
-    <div class="pub-links">
-      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Paper</a>
-      <a href="https://github.com/RL-MIND/DMNSP">Code</a>
-    </div>
     <ul class="pub-bullets">
       <li>We propose DMNSP to mitigate the catastrophic forgetting caused by the different behaviors of two modalities in VLM-CL.</li>
+      <li>Extensive experiments show that our method achieves superior performance on various VLCL benchmarks.</li>
     </ul>
   </div>
 </div>
 
-<!-- 论文 2: ZO Optimization -->
-
+<!-- 论文 2: ZO Optimization (MoZO) -->
 <div class="pub-card">
   <div class="pub-img-container">
     <div class="pub-badge">AAAI 2026</div>
-    <img src="/images/mozo_fig.png" alt="VLCL Framework">
+    <img src="/images/mozo_fig.png" alt="MoZO Framework">
   </div>
   <div class="pub-content">
     <h3 class="pub-title">
       <a href="https://arxiv.org/pdf/2506.12409">Branch, or Layer? Zeroth-Order Optimization for Continual Learning of Vision-Language Models</a>
     </h3>
-    <p class="pub-authors">
+    <p class="pub-authors-links">
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
+      <span class="pub-links">
+        <a href="https://arxiv.org/pdf/2506.12409">Paper</a>
+      </span>
       <br>
-      <span style="font-size: 0.85em; color: #888; font-style: italic;">(* Equal Contribution)</span>
+      <span style="font-size: 0.9em; color: #888; font-style: italic;">(* Equal Contribution)</span>
     </p>
-    <div class="pub-links">
-      <a href="https://arxiv.org/pdf/2506.12409">Paper</a>
-    </div>
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
+      <li>Achieves a modality-aware stabilized ZO strategy for improved robustness.</li>
     </ul>
   </div>
 </div>
