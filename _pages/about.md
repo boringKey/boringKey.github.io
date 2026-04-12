@@ -129,10 +129,10 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
     </p>
     <ul class="pub-bullets">
       <li>We propose DMNSP to mitigate the catastrophic forgetting caused by the different behaviors of two modalities in VLM-CL.</li>
-      <li>Extensive experiments show that our method achieves superior performance on various VLCL benchmarks.</li>
     </ul>
   </div>
 </div>
+
 
 <!-- 论文 2: MoZO -->
 <div class="pub-card">
@@ -154,7 +154,6 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
     </p>
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
-      <li>Achieves a modality-aware stabilized ZO strategy for improved robustness.</li>
     </ul>
   </div>
 </div>
