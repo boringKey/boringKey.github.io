@@ -26,8 +26,7 @@ News
     margin-bottom: 35px;
     width: 100%;
   }
-
-  /* 左侧图片：稍微缩小一点 */
+    /* 左侧图片：稍微缩小一点 */
   .pub-img-container {
     flex: 0 0 38%; 
     position: relative;
@@ -121,9 +120,7 @@ News
     </h3>
     <p class="pub-authors">
       <strong>Borui Kang</strong>, Lei Wang, Zhiping Wu, Tao Feng, Yawen Li, Yang Gao, Wenbin Li
-    </p>
     <div class="pub-links">
-      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Paper</a>
       <a href="https://github.com/RL-MIND/DMNSP">Code</a>
     </div>
     <ul class="pub-bullets">
@@ -132,6 +129,7 @@ News
     </ul>
   </div>
 </div>
+
 
 <!-- 论文 2: ZO Optimization -->
 <div class="pub-card">
@@ -147,10 +145,7 @@ News
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
       <br>
       <span style="font-size: 0.85em; color: #888;">(* Equal Contribution)</span>
-    </p>
-    <div class="pub-links">
-      <a href="https://arxiv.org/pdf/2506.12409">Paper</a>
-    </div>
+    
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
       <li>Achieves a modality-aware stabilized ZO strategy for improved robustness.</li>
