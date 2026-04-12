@@ -1,11 +1,10 @@
 ---
+​---
 permalink: /
-title: "About Me"
+title: "Borui Kang"  # 这里改掉后，浏览器标签页就不会显示 "About Me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+​---
 ---
 
 <style>
@@ -111,6 +110,7 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
 <h2 id="publications">Selected Publications</h2>
 
 <!-- 论文 1: DMNSP -->
+
 <div class="pub-card">
   <div class="pub-img-container">
     <div class="pub-badge">ICCV 2025</div>
