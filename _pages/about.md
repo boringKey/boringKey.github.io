@@ -123,7 +123,6 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
     <p class="pub-authors-links">
       <strong>Borui Kang</strong>, Lei Wang, Zhiping Wu, Tao Feng, Yawen Li, Yang Gao, Wenbin Li
       <span class="pub-links">
-        [<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Paper</a>] 
         [<a href="https://github.com/RL-MIND/DMNSP">Code</a>]
       </span>
     </p>
@@ -146,11 +145,7 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
     </h3>
     <p class="pub-authors-links">
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
-      <span class="pub-links">
-        [<a href="https://arxiv.org/pdf/2506.12409">Paper</a>]
-      </span>
-      <br>
-      <span style="font-size: 0.9em; color: #888; font-style: italic;">(* Equal Contribution)</span>
+     <span style="font-size: 0.9em; color: #888; font-style: italic;">(* Equal Contribution)</span>
     </p>
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
