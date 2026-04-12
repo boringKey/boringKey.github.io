@@ -17,105 +17,19 @@ News
 * **[2024.09]** Started my PhD journey at [Your University]!
 * **[2024.xx]** Our project on *Genshin Impact Action Detection* is now open-sourced on GitHub.
 
-
-
-
-
-<style>
-  /* 增加一些局部样式，让页面更精致 */
-  .pub-card {
-    display: flex; 
-    flex-direction: row; 
-    align-items: flex-start; 
-    margin-bottom: 40px; 
-    gap: 25px;
-    padding: 15px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-  }
-  .pub-card:hover {
-    background-color: #fcfcfc; /* 鼠标悬停时有轻微底色 */
-  }
-  .pub-img {
-    flex: 1; 
-    min-width: 280px;
-    max-width: 320px;
-  }
-  .pub-img img {
-    width: 100%; 
-    border-radius: 5px; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* 更柔和的投影 */
-    border: 1px solid #f0f0f0;
-  }
-  .pub-content {
-    flex: 2;
-  }
-  .pub-title {
-    margin: 0 0 10px 0; 
-    font-size: 1.2em; 
-    font-weight: 700;
-    line-height: 1.3;
-  }
-  .pub-title a {
-    color: #0056b3;
-    text-decoration: none;
-  }
-  .pub-title a:hover {
-    text-decoration: underline;
-  }
-  .pub-authors {
-    margin: 8px 0; 
-    font-size: 0.95em; 
-    color: #444;
-  }
-  .pub-venue {
-    margin: 5px 0;
-    font-weight: 600;
-    color: #d9534f; /* 专业学术红/蓝 */
-    font-style: italic;
-  }
-  .pub-links {
-    margin: 12px 0;
-  }
-  .pub-btn {
-    display: inline-block;
-    padding: 2px 12px;
-    margin-right: 8px;
-    border: 1px solid #0056b3;
-    border-radius: 15px;
-    font-size: 0.85em;
-    color: #0056b3;
-    text-decoration: none;
-    transition: all 0.3s;
-  }
-  .pub-btn:hover {
-    background-color: #0056b3;
-    color: #fff;
-  }
-  .pub-bullets {
-    margin-top: 10px;
-    padding-left: 20px;
-    font-size: 0.9em;
-    color: #555;
-    line-height: 1.6;
-  }
-</style>
-# Selected Publications
-
 <style>
   .pub-card {
     display: flex;
     flex-direction: row;
-    /* 核心改进：垂直居中对齐，解决不对称感 */
-    align-items: center; 
-    gap: 40px;
-    margin-bottom: 50px;
+    align-items: flex-start; /* 改回顶部对齐，通过缩小文字来对齐高度 */
+    gap: 25px;
+    margin-bottom: 35px;
     width: 100%;
   }
 
-  /* 左侧图片区域：占据 40% 宽度 */
+  /* 左侧图片：稍微缩小一点 */
   .pub-img-container {
-    flex: 0 0 40%; 
+    flex: 0 0 38%; 
     position: relative;
   }
 
@@ -123,37 +37,34 @@ News
     width: 100%;
     height: auto;
     border: 1px solid #eee;
-    box-shadow: 4px 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1); /* 参考图中的柔和阴影 */
     display: block;
-    border-radius: 2px;
   }
 
+  /* 调小标签字号 */
   .pub-badge {
     position: absolute;
     top: 0;
     left: 0;
     background-color: #003d99;
     color: white;
-    padding: 4px 10px;
-    font-size: 0.8em;
+    padding: 2px 8px;
+    font-size: 0.7em;
     font-weight: bold;
     z-index: 10;
   }
 
-  /* 右侧内容区域：占据剩余空间 */
+  /* 右侧内容：全面调小字号 */
   .pub-content {
     flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
 
+  /* 标题：1.05em，深蓝色下划线，模拟参考图 */
   .pub-title {
-    font-size: 1.3em;
-    font-weight: 800;
-    margin: 0 0 10px 0;
-    line-height: 1.25;
-    color: #1a5dab;
+    font-size: 1.05em; 
+    font-weight: 600;
+    margin: 0 0 4px 0;
+    line-height: 1.2;
   }
 
   .pub-title a {
@@ -161,41 +72,38 @@ News
     text-decoration: underline;
   }
 
+  /* 作者：0.85em，收紧行高 */
   .pub-authors {
-    font-size: 1.05em;
-    color: #444;
-    margin: 0 0 12px 0;
-    line-height: 1.4;
+    font-size: 0.85em; 
+    color: #555;
+    margin: 0 0 8px 0;
+    line-height: 1.3;
   }
 
+  /* 链接：0.9em，去掉加粗，更清爽 */
   .pub-links {
-    margin-bottom: 15px;
-    font-size: 1.1em;
+    margin-bottom: 8px;
+    font-size: 0.9em;
   }
 
   .pub-links a {
     color: #1a5dab;
     text-decoration: underline;
-    font-weight: bold;
-    margin-right: 20px;
+    margin-right: 12px;
   }
 
+  /* 列表：0.82em，非常紧凑 */
   .pub-bullets {
-    padding-left: 20px;
+    padding-left: 15px;
     margin: 0;
-    color: #555;
-    font-size: 0.95em;
-    line-height: 1.6;
+    color: #666;
+    font-size: 0.82em; 
+    line-height: 1.4;
   }
 
-  /* 针对平板和手机的适配 */
-  @media (max-width: 900px) {
-    .pub-card { 
-      flex-direction: column; 
-      align-items: flex-start;
-      gap: 20px;
-    }
-    .pub-img-container { width: 100%; max-width: 500px; }
+  @media (max-width: 768px) {
+    .pub-card { flex-direction: column; gap: 15px; }
+    .pub-img-container { width: 100%; }
   }
 </style>
 
@@ -238,7 +146,7 @@ News
     <p class="pub-authors">
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
       <br>
-      <span style="font-size: 0.85em; color: #666; font-style: italic;">(* Equal Contribution)</span>
+      <span style="font-size: 0.85em; color: #888;">(* Equal Contribution)</span>
     </p>
     <div class="pub-links">
       <a href="https://arxiv.org/pdf/2506.12409">Paper</a>
