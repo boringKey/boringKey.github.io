@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,31 +8,46 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 1st-year PhD student at Nanjing University, supervised by Prof. [Wenbin Li](https://liwenbin.cn). Recently, I have focused on Continual Learning and Multi-modal Learning. 
-
-I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.cn/rl/), led by Professor [Yang Gao](https://cs.nju.edu.cn/gaoyang).
-
-News
-======
-
-* [2025.11] 🎉 Our paper MoZO was accepted by AAAI 2026!
-* [2025.09] 🎓 Started my Ph.D. journey at Nanjing University! 
-* [2025.06] 🎉 Our paper DMNSP was accepted by ICCV 2025!
-
 <style>
+  /* 全局右侧字体缩减 */
+  .page__content {
+    font-size: 0.88em; /* 整体缩放 */
+    line-height: 1.5;
+    color: #333;
+  }
+
   html { scroll-behavior: smooth; }
 
+  /* 标题样式缩小 */
+  h1, h2 { 
+    font-size: 1.3em !important; 
+    margin-top: 1.5em !important;
+    margin-bottom: 0.8em !important;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+
+  /* News 列表缩小 */
+  .news-list {
+    font-size: 0.95em;
+    padding-left: 20px;
+  }
+  .news-list li {
+    margin-bottom: 6px;
+  }
+
+  /* 论文卡片紧凑布局 */
   .pub-card {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 25px;
-    margin-bottom: 30px;
+    gap: 20px;
+    margin-bottom: 25px;
     width: 100%;
   }
 
   .pub-img-container {
-    flex: 0 0 38%; 
+    flex: 0 0 35%; /* 稍微缩小图片比例 */
     position: relative;
   }
 
@@ -40,7 +55,7 @@ News
     width: 100%;
     height: auto;
     border: 1px solid #eee;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.08);
     display: block;
   }
 
@@ -50,7 +65,7 @@ News
     left: 0;
     background-color: #003d99;
     color: white;
-    padding: 2px 8px;
+    padding: 2px 6px;
     font-size: 0.7em;
     font-weight: bold;
     z-index: 10;
@@ -61,9 +76,9 @@ News
   }
 
   .pub-title {
-    font-size: 1.05em; 
+    font-size: 1.0rem !important; /* 论文标题缩小 */
     font-weight: 600;
-    margin: 0 0 4px 0;
+    margin: 0 0 4px 0 !important;
     line-height: 1.2;
   }
 
@@ -73,28 +88,28 @@ News
   }
 
   .pub-authors-links {
-    font-size: 0.85em; 
+    font-size: 0.85rem; 
     color: #555;
-    margin: 0 0 6px 0;
-    line-height: 1.4;
+    margin: 0 0 4px 0;
+    line-height: 1.3;
   }
 
   .pub-links {
     display: inline;
     margin-left: 8px;
+    font-weight: 500;
   }
 
   .pub-links a {
     color: #1a5dab;
     text-decoration: underline;
-    font-weight: 500;
   }
 
   .pub-bullets {
     padding-left: 15px;
     margin: 4px 0 0 0;
     color: #666;
-    font-size: 0.82em; 
+    font-size: 0.8rem; /* 列表文字进一步缩小 */
     line-height: 1.4;
   }
 
@@ -104,7 +119,22 @@ News
   }
 </style>
 
-<h1 id="publications" style="margin-top: 50px;">Selected Publications</h1>
+# About Me
+
+I am currently a 1st-year PhD student at Nanjing University, supervised by Prof. [Wenbin Li](https://liwenbin.cn). Recently, I have focused on Continual Learning and Multi-modal Learning. 
+
+I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.cn/rl/), led by Professor [Yang Gao](https://cs.nju.edu.cn/gaoyang).
+
+# News
+
+<ul class="news-list">
+  <li><b>[2025.11]</b> 🎉 Our paper <b>MoZO</b> was accepted by <b>AAAI 2026</b>!</li>
+  <li><b>[2025.09]</b> 🎓 Started my Ph.D. journey at <b>Nanjing University</b>!</li>
+  <li><b>[2025.06]</b> 🚀 Our paper <b>DMNSP</b> (Dynamic Multi-Layer Null Space Projection) was accepted by <b>ICCV 2025</b>!</li>
+</ul>
+
+
+<h1 id="publications">Selected Publications</h1>
 
 <!-- 论文 1: DMNSP -->
 <div class="pub-card">
