@@ -27,6 +27,7 @@ News
     <img src="/images/dmnsp_fig.png" alt="Project Thumbnail" style="width: 100%; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
   </div>
 
+
   <!-- 右侧文字部分 -->
   <div style="flex: 2;">
     <h3 style="margin-top: 0; font-size: 1.1em;">
