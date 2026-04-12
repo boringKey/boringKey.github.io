@@ -103,23 +103,110 @@ News
 
 # Selected Publications
 
-<!-- 论文 1: DMNSP -->
+<style>
+  /* 整体容器 */
+  .pub-card {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: flex-start;
+  }
 
+  /* 左侧图片区域 */
+  .pub-img-container {
+    flex: 1;
+    min-width: 300px;
+    position: relative; /* 为标签定位 */
+  }
+
+  .pub-img-container img {
+    width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1); /* 柔和阴影 */
+    display: block;
+  }
+
+  /* 图片左上角的会议标签 */
+  .pub-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #003d99; /* 深蓝色 */
+    color: white;
+    padding: 4px 12px;
+    font-size: 0.85em;
+    font-weight: bold;
+    z-index: 10;
+  }
+
+  /* 右侧内容区域 */
+  .pub-content {
+    flex: 1.5;
+  }
+
+  .pub-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    line-height: 1.2;
+  }
+
+  .pub-title a {
+    color: #1a5dab; /* 经典的学术链接蓝 */
+    text-decoration: underline;
+  }
+
+  .pub-authors {
+    font-size: 1.05em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .pub-links {
+    margin-bottom: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  .pub-links a {
+    color: #1a5dab;
+    text-decoration: underline;
+    margin-right: 15px;
+  }
+
+  .pub-bullets {
+    padding-left: 20px;
+    color: #444;
+    font-size: 0.95em;
+    line-height: 1.6;
+  }
+
+  /* 移动端适配 */
+  @media (max-width: 768px) {
+    .pub-card { flex-direction: column; gap: 15px; }
+    .pub-img-container { min-width: 100%; }
+  }
+</style>
+
+# Selected Publications
+
+<!-- 论文 1: DMNSP -->
 <div class="pub-card">
-  <div class="pub-img">
+  <div class="pub-img-container">
+    <div class="pub-badge">ICCV 2025</div>
     <img src="/images/dmnsp_fig.png" alt="DMNSP Framework">
   </div>
   <div class="pub-content">
     <h3 class="pub-title">
-      <a href="#">Dynamic Multi-Layer Null Space Projection for Vision-Language Continual Learning</a>
+      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Dynamic Multi-Layer Null Space Projection for Vision-Language Continual Learning</a>
     </h3>
     <p class="pub-authors">
       <strong>Borui Kang</strong>, Lei Wang, Zhiping Wu, Tao Feng, Yawen Li, Yang Gao, Wenbin Li
     </p>
-    <p class="pub-venue">ICCV 2025</p>
     <div class="pub-links">
-      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf" class="pub-btn">Paper</a>
-      <a href="https://github.com/RL-MIND/DMNSP" class="pub-btn">Code</a>
+      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Paper</a>
+      <a href="https://github.com/RL-MIND/DMNSP">Code</a>
     </div>
     <ul class="pub-bullets">
       <li>We propose DMNSP to mitigate the catastrophic forgetting caused by the different behaviors of two modalities in VLM-CL.</li>
@@ -128,10 +215,10 @@ News
   </div>
 </div>
 
-<!-- 论文 2: ZO Optimization (此处作为美观对比) -->
-
+<!-- 论文 2: ZO Optimization -->
 <div class="pub-card">
-  <div class="pub-img">
+  <div class="pub-img-container">
+    <div class="pub-badge">AAAI 2026</div>
     <img src="/images/mozo_fig.png" alt="VLCL Framework">
   </div>
   <div class="pub-content">
@@ -140,12 +227,11 @@ News
     </h3>
     <p class="pub-authors">
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
-   	<br>
-      <span style="font-size: 0.85em; color: #666; font-style: italic;">(* Equal Contribution)</span>                    
+      <br>
+      <span style="font-size: 0.85em; color: #666; font-style: italic;">(* Equal Contribution)</span>
     </p>
-    <p class="pub-venue">AAAI 2026</p>
     <div class="pub-links">
-      <a href="https://arxiv.org/pdf/2506.12409" class="pub-btn" style="color:#888; border-color:#888;">Paper</a>
+      <a href="https://arxiv.org/pdf/2506.12409">Paper</a>
     </div>
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
@@ -153,4 +239,3 @@ News
     </ul>
   </div>
 </div>
-
