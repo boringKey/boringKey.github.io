@@ -104,9 +104,9 @@ I am currently a 1st-year PhD student at Nanjing University, supervised by Prof.
 I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.cn/rl/), led by Professor [Yang Gao](https://cs.nju.edu.cn/gaoyang).
 
 ## News
-* **[2025.11]** 🎉 Our paper **MoZO** was accepted by **AAAI 2026**!
-* **[2025.09]** 🎓 Started my Ph.D. journey at **Nanjing University**! 
-* **[2025.06]** 🚀 Our paper **DMNSP** (Dynamic Multi-Layer Null Space Projection) was accepted by **ICCV 2025**!
+* [2025.11] 🎉 Our paper MoZO was accepted by AAAI 2026!
+* [2025.09] 🎓 Started my Ph.D. journey at Nanjing University! 
+* [2025.06] 🎉 Our paper DMNSP  was accepted by ICCV 2025!
 
 <h2 id="publications">Selected Publications</h2>
 
