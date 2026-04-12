@@ -120,7 +120,7 @@ News
     <p class="pub-authors">
       <strong>Borui Kang</strong>, Lei Wang, Zhiping Wu, Tao Feng, Yawen Li, Yang Gao, Wenbin Li
     </p>
-    <p class="pub-venue">CVPR 2025 (Under Review / Placeholder)</p>
+    <p class="pub-venue">ICCV 2025</p>
     <div class="pub-links">
       <a href="#" class="pub-btn">Paper</a>
       <a href="https://github.com/boringKey" class="pub-btn">Code</a>
@@ -147,12 +147,12 @@ News
    	<br>
       <span style="font-size: 0.85em; color: #666; font-style: italic;">(* Equal Contribution)</span>                    
     </p>
-    <p class="pub-venue">AAAI 2026 (Placeholder)</p>
+    <p class="pub-venue">AAAI 2026</p>
     <div class="pub-links">
       <a href="https://arxiv.org/pdf/2506.12409" class="pub-btn" style="color:#888; border-color:#888;">Paper</a>
     </div>
     <ul class="pub-bullets">
-      <li>Explores <b>Zeroth-Order (ZO) optimization</b> to solve the instability issues in VLM continual learning.</li>
+      <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
       <li>Achieves a modality-aware stabilized ZO strategy for improved robustness.</li>
     </ul>
   </div>
