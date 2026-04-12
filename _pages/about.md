@@ -14,12 +14,13 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
 
 News
 ======
+
 * [2025.11] 🎉 Our paper MoZO was accepted by AAAI 2026!
 * [2025.09] 🎓 Started my Ph.D. journey at Nanjing University! 
-* [2025.06] 🎉 Our paper DMNSP (Dynamic Multi-Layer Null Space Projection) was accepted by ICCV 2025!
+* [2025.06] 🎉 Our paper DMNSP was accepted by ICCV 2025!
 
 <style>
-  html { scroll-behavior: smooth; } /* 实现平滑滚动 */
+  html { scroll-behavior: smooth; }
 
   .pub-card {
     display: flex;
@@ -71,16 +72,11 @@ News
     text-decoration: underline;
   }
 
-  /* 作者和链接区域：消除换行的关键 */
   .pub-authors-links {
     font-size: 0.85em; 
     color: #555;
     margin: 0 0 6px 0;
     line-height: 1.4;
-  }
-
-  .pub-authors-links strong {
-    color: #333;
   }
 
   .pub-links {
