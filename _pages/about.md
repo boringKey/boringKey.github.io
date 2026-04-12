@@ -8,25 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a 1st-year PhD student at Nanjing University, supervised by Prof. [Wenbin Li](https://liwenbin.cn). Recently, I have focused on Computer Learning and Multi-modal Learning. 
+I am currently a 1st-year PhD student at Nanjing University, supervised by Prof. [Wenbin Li](https://liwenbin.cn). Recently, I have focused on Continual Learning and Multi-modal Learning. 
 
 I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.cn/rl/), led by Professor [Yang Gao](https://cs.nju.edu.cn/gaoyang).
 
 News
 ======
-* **[2024.09]** Started my PhD journey at [Your University]!
-* **[2024.xx]** Our project on *Genshin Impact Action Detection* is now open-sourced on GitHub.
+* [2025.11] 🎉 Our paper MoZO was accepted by AAAI 2026!
+* [2025.09] 🎓 Started my Ph.D. journey at Nanjing University! 
+* [2025.06] 🚀 Our paper DMNSP (Dynamic Multi-Layer Null Space Projection) was accepted by ICCV 2025!
 
 <style>
   .pub-card {
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* 改回顶部对齐，通过缩小文字来对齐高度 */
+    align-items: flex-start;
     gap: 25px;
     margin-bottom: 35px;
     width: 100%;
   }
-    /* 左侧图片：稍微缩小一点 */
+
   .pub-img-container {
     flex: 0 0 38%; 
     position: relative;
@@ -36,11 +37,10 @@ News
     width: 100%;
     height: auto;
     border: 1px solid #eee;
-    box-shadow: 3px 3px 10px rgba(0,0,0,0.1); /* 参考图中的柔和阴影 */
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
     display: block;
   }
 
-  /* 调小标签字号 */
   .pub-badge {
     position: absolute;
     top: 0;
@@ -53,12 +53,10 @@ News
     z-index: 10;
   }
 
-  /* 右侧内容：全面调小字号 */
   .pub-content {
     flex: 1;
   }
 
-  /* 标题：1.05em，深蓝色下划线，模拟参考图 */
   .pub-title {
     font-size: 1.05em; 
     font-weight: 600;
@@ -71,7 +69,6 @@ News
     text-decoration: underline;
   }
 
-  /* 作者：0.85em，收紧行高 */
   .pub-authors {
     font-size: 0.85em; 
     color: #555;
@@ -79,7 +76,6 @@ News
     line-height: 1.3;
   }
 
-  /* 链接：0.9em，去掉加粗，更清爽 */
   .pub-links {
     margin-bottom: 8px;
     font-size: 0.9em;
@@ -91,7 +87,6 @@ News
     margin-right: 12px;
   }
 
-  /* 列表：0.82em，非常紧凑 */
   .pub-bullets {
     padding-left: 15px;
     margin: 0;
@@ -120,18 +115,19 @@ News
     </h3>
     <p class="pub-authors">
       <strong>Borui Kang</strong>, Lei Wang, Zhiping Wu, Tao Feng, Yawen Li, Yang Gao, Wenbin Li
+    </p>
     <div class="pub-links">
+      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf">Paper</a>
       <a href="https://github.com/RL-MIND/DMNSP">Code</a>
     </div>
     <ul class="pub-bullets">
       <li>We propose DMNSP to mitigate the catastrophic forgetting caused by the different behaviors of two modalities in VLM-CL.</li>
-      <li>Extensive experiments show that our method achieves superior performance on various VLCL benchmarks.</li>
     </ul>
   </div>
 </div>
 
-
 <!-- 论文 2: ZO Optimization -->
+
 <div class="pub-card">
   <div class="pub-img-container">
     <div class="pub-badge">AAAI 2026</div>
@@ -144,11 +140,13 @@ News
     <p class="pub-authors">
       Ziwei Liu*, <strong>Borui Kang</strong>*, Wei Li, Hangjie Yuan, Yanbing Yang, Wenbin Li, Jun Luo, Yifan Zhu, Tao Feng
       <br>
-      <span style="font-size: 0.85em; color: #888;">(* Equal Contribution)</span>
-
+      <span style="font-size: 0.85em; color: #888; font-style: italic;">(* Equal Contribution)</span>
+    </p>
+    <div class="pub-links">
+      <a href="https://arxiv.org/pdf/2506.12409">Paper</a>
+    </div>
     <ul class="pub-bullets">
       <li>Explores Zeroth-Order optimization to solve the instability issues in VLM continual learning.</li>
-      <li>Achieves a modality-aware stabilized ZO strategy for improved robustness.</li>
     </ul>
   </div>
 </div>
