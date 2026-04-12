@@ -3,7 +3,6 @@ title: "Dynamic Multi-Layer Null Space Projection for Vision-Language Continual 
 collection: publications
 permalink: /publication/2023-paper-title # 这里的链接可以自定义
 # excerpt: '简短的一句话摘要，介绍论文核心贡献。'
-date: 2025-10 # 论文发表日期
 venue: 'ICCV 2025' # 会议或期刊名称
 paperurl: 'https://arxiv.org/xxx' # 论文 PDF 链接
 ---
