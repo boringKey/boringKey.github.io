@@ -19,10 +19,6 @@ News
 
 
 
-# Selected Publications
-
-
-
 
 
 <style>
@@ -111,7 +107,7 @@ News
 
 <div class="pub-card">
   <div class="pub-img">
-    <img src="/images/paper_dmnsp.png" alt="DMNSP Framework">
+    <img src="/images/dmnsp_fig.png" alt="DMNSP Framework">
   </div>
   <div class="pub-content">
     <h3 class="pub-title">
@@ -122,8 +118,8 @@ News
     </p>
     <p class="pub-venue">ICCV 2025</p>
     <div class="pub-links">
-      <a href="#" class="pub-btn">Paper</a>
-      <a href="https://github.com/boringKey" class="pub-btn">Code</a>
+      <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Kang_Dynamic_Multi-Layer_Null_Space_Projection_for_Vision-Language_Continual_Learning_ICCV_2025_paper.pdf" class="pub-btn">Paper</a>
+      <a href="https://github.com/RL-MIND/DMNSP" class="pub-btn">Code</a>
     </div>
     <ul class="pub-bullets">
       <li>We propose <b>DMNSP</b> to mitigate the catastrophic forgetting caused by the different behaviors of two modalities in VLM-CL.</li>
@@ -136,7 +132,7 @@ News
 
 <div class="pub-card">
   <div class="pub-img">
-    <img src="="/images/mozo_fig.png" alt="VLCL Framework">
+    <img src="/images/mozo_fig.png" alt="VLCL Framework">
   </div>
   <div class="pub-content">
     <h3 class="pub-title">
