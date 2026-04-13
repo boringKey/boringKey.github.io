@@ -6,10 +6,21 @@ author_profile: true
 ---
 
 <style>
-  /* 1. 隐藏左上角的齿轮图标（搜索/主题切换按钮） */
-  .search__toggle {
+
+  /* 彻底隐藏主题切换按钮、搜索按钮以及导航栏中的所有触发按钮 */
+  .theme-toggle, 
+  #theme-toggle, 
+  .theme-switcher,
+  .search__toggle, 
+  .masthead__menu-item button,
+  .greedy-nav button {
     display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    padding: 0 !important;
   }
+
+  
   /* 仅针对右侧主体内容进行字体缩小 */
   .page__inner-wrap {
     font-size: 0.88em; 
