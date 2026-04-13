@@ -6,6 +6,10 @@ author_profile: true
 ---
 
 <style>
+  /* 1. 隐藏左上角的齿轮图标（搜索/主题切换按钮） */
+  .search__toggle {
+    display: none !important;
+  }
   /* 仅针对右侧主体内容进行字体缩小 */
   .page__inner-wrap {
     font-size: 0.88em; 
