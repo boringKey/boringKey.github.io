@@ -117,9 +117,11 @@ I am a member of the [Reasoning and Learning Research Group](https://cs.nju.edu.
 
 ## News
 
-* [2025.11] 🎉 Our paper MoZO was accepted by AAAI 2026!
+* [2026.05] 🎉 Two papers are accepted by ICML 2026!
+* [2026.02] 🎉 One paper is accepted by CVPR 2026!
+* [2025.11] 🎉 One paper is accepted by AAAI 2026!
 * [2025.09] 🎓 Started my Ph.D. journey at Nanjing University! 
-* [2025.06] 🎉 Our paper DMNSP was accepted by ICCV 2025!
+* [2025.06] 🎉 One paper is accepted by ICCV 2025!
 
 <h2 id="publications">Selected Publications</h2>
 
